@@ -1,0 +1,263 @@
+#mlh-trust-badge {
+  left: 50px;
+  right: auto;
+}
+
+#name {
+  font-family: Barlow;
+  font-size: 48px;
+  padding-bottom: 0.2em;
+  letter-spacing: 0;
+}
+
+#info {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 2em;
+}
+
+.call-to-action {
+  color: black;
+  background: #FFC000;
+  padding: 0.5em 1em;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.col-md-9 {
+  width: 11.11%;
+}
+p {
+  font-size: 20px;
+}
+p.small {
+  font-size: 16px;
+}
+.img-centered {
+  margin: 0 auto;
+  display: block;
+}
+.gradient {
+  /*background: linear-gradient(89.85deg, #5E31A8 0.02%, #4D27E6 109.11%);*/
+  background: linear-gradient(246.94deg, #5B99EB -0.38%, #7325C0 91.68%, #751ABD 99.99%);
+  padding-bottom: 25px;
+}
+
+.track-card {
+  background-color: white;
+  /*width: 50%;*/
+  border-radius: 10px;
+  padding: 10px;
+  flex: 1 0 auto;
+  margin: 10px 10px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+  width: 75%;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .card-container {
+    align-items: stretch;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .track-card {
+    flex: 1 1 0;
+  }
+}
+
+.logo {
+  opacity: 0.75;
+}
+
+.gradient-reverse {
+  /*background: linear-gradient(89.85deg, #8158C4 0.02%, #7B5CF7 109.11%);*/
+  background: linear-gradient(89.85deg, #A1BADA 0.02%, #7B5CF7 109.11%);
+}
+
+#tracks {
+  padding: 100px 0;
+  padding-top: 60px;
+}
+
+.white {
+  background-color: #ffffff;
+  text-align: center;
+  color: #5E31AA;
+}
+.white2 {
+  background-color: #ffffff;
+  text-align: center;
+  color: black;
+  padding: 10px;
+}
+.baby-blue {
+  color: white;
+  background-color: #A1B7D9;
+}
+.purple {
+  color: white;
+  background-color: #36284D;
+}
+.title {
+  color: white;
+  font-weight: 300;
+  font-size: 48px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.title2 {
+  color: #36284D;
+  font-weight: 300;
+  font-size: 48px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.sub-title {
+  color: black;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+.track-icon {
+  height: 150px;
+  padding-top: 10px;
+}
+
+.sponsor-img {
+  max-width: 50%;
+  max-height: 75px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sponsor {
+  text-align: center;
+  width: 33.333%;
+  float: left;
+  height: 100px;
+  position: relative;
+}
+
+header .intro-text {
+  text-align: center;
+  color: #fefffe;
+  font-size: 30px;
+}
+
+header .container {
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+header .intro-text img {
+  width: 100px;
+}
+
+@media (min-width: 768px) {
+  header .container {
+    padding-top: 175px;
+    padding-bottom: 100px;
+  }
+
+  .navbar-custom {
+
+  }
+}
+
+@media (min-width: 978px) {
+  header .container {
+    padding-top: 200px;
+    padding-bottom: 100px;
+  }
+}
+
+.navbar-custom {
+  font-size: 16px;
+  color: #ffffff;
+  /*padding-bottom: 5%;*/
+  /*background-color: rgba(137, 130, 176, 0.8);*/
+  /*background-color: rgba(180, 180, 180, 0.75);*/
+  /*background-color: rgba(196, 196, 196, 0.5);*/
+  /*background: #4b3174;*/
+  background: #36284d;
+  /*background: linear-gradient(89.85deg, #5E31A8 0.02%, #4D27E6 109.11%);*/
+  border: none;
+}
+
+.navbar-custom .navbar-nav li a,
+.navbar-custom .navbar-nav li a:hover,
+.navbar-custom .navbar-nav li a:visited {
+  color: white;
+}
+/*
+.navbar-custom:hover {
+  /*-webkit-transition: background-color 0.3s;*/
+  /*-moz-transition: background-color 0.3s;*/
+  /*transition: background-color 0.3s;*/
+  /*background-color: #371e60;*/
+}*/
+
+.navbar-custom .navbar-nav li.active a {
+  color: white;
+  background: #a5b0cc;
+}
+
+.navbar-custom .navbar-toggle {
+  /*color: #5E31AA;*/
+  color: white;
+  font-size: 20px;
+  border-color: white;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #5E31AA;
+  color: white;
+  border-color: #a5b0cc;
+}
+@media (min-width: 768px) {
+  .navbar-custom {
+    padding: 25px 0;
+    transition-duration: 0.3s;
+    background: none;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-custom.affix {
+    padding: 10px 0;
+    background: #36284d;
+    /*background-color: rgba(175, 175, 175, 0.8);*/
+  }
+  .navbar-custom.affix .navbar-brand {
+    font-size: 1.5em;
+  }
+
+  #mlh-trust-badge {
+    right: 50px;
+    left: auto;
+  }
+}
+
+footer {
+  color: #ffffff;
+  background: #36284d;
+  /*background: linear-gradient(89.85deg, #5E31A8 0.02%, #4D27E6 109.11%);*/
+  padding: 25px 0;
+  font-weight: 300;
+}
